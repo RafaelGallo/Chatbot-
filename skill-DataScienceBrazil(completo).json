@@ -1,0 +1,2937 @@
+{
+  "name": "DataScienceBrazil",
+  "intents": [
+    {
+      "intent": "valor",
+      "examples": [
+        {
+          "text": "quanto que esta"
+        },
+        {
+          "text": "Quanto custa?"
+        },
+        {
+          "text": "quanto é"
+        },
+        {
+          "text": "qual o valor"
+        },
+        {
+          "text": "é caro"
+        },
+        {
+          "text": "é barato"
+        },
+        {
+          "text": "tem que pagar?"
+        },
+        {
+          "text": "é de graça"
+        },
+        {
+          "text": "é free"
+        },
+        {
+          "text": "how much"
+        },
+        {
+          "text": "quais os valores"
+        },
+        {
+          "text": "é 0800?"
+        },
+        {
+          "text": "qualé o valor"
+        },
+        {
+          "text": "na faixa?"
+        },
+        {
+          "text": "preço"
+        },
+        {
+          "text": "preco"
+        },
+        {
+          "text": "Queria saber sobre preço"
+        },
+        {
+          "text": "qual é o preco"
+        },
+        {
+          "text": "qual é o preço"
+        },
+        {
+          "text": "Quanto ta mesmo"
+        },
+        {
+          "text": "quanto tá mesmo"
+        },
+        {
+          "text": "quanto que esta mesmo"
+        },
+        {
+          "text": "quanto ta"
+        }
+      ],
+      "description": "Quanto custa a Maratona"
+    },
+    {
+      "intent": "pagamento",
+      "examples": [
+        {
+          "text": "quais as formas de pagamento?"
+        },
+        {
+          "text": "posso pagar com o cartão"
+        },
+        {
+          "text": "posso pagar pelo mercado pago?"
+        },
+        {
+          "text": "como posso pagar?"
+        },
+        {
+          "text": "Aceitam cartão"
+        },
+        {
+          "text": "quais a formas de pagamento"
+        },
+        {
+          "text": "aceitam deposito"
+        },
+        {
+          "text": "boleto bancário"
+        },
+        {
+          "text": "débito"
+        },
+        {
+          "text": "credito"
+        },
+        {
+          "text": "parcela"
+        },
+        {
+          "text": "divide"
+        },
+        {
+          "text": "pagamento digital"
+        },
+        {
+          "text": "paypal"
+        },
+        {
+          "text": "transferência bancária"
+        },
+        {
+          "text": "aceitam criptomoedas"
+        },
+        {
+          "text": "a vista"
+        },
+        {
+          "text": "posso pagar pessoalmente"
+        },
+        {
+          "text": "aceitam cheque?"
+        }
+      ],
+      "description": "Formas de pagamento"
+    },
+    {
+      "intent": "Cadastrado",
+      "examples": [
+        {
+          "text": "fiz o cadastro e agora"
+        },
+        {
+          "text": "já preenchi o formulário e agora?"
+        },
+        {
+          "text": "formulário?"
+        },
+        {
+          "text": "recebo algum email?"
+        },
+        {
+          "text": "estou na fila de espera"
+        },
+        {
+          "text": "tem fila de espera?"
+        },
+        {
+          "text": "ja me cadastrei e agora?"
+        },
+        {
+          "text": "já fiz o cadastro"
+        },
+        {
+          "text": "preechi o form"
+        },
+        {
+          "text": "Como eu me inscrevo"
+        },
+        {
+          "text": "Chega email depois que eu fizer o cadastro?"
+        },
+        {
+          "text": "estou cadastrado, e agora?"
+        },
+        {
+          "text": "já me cadastrei, recebo algum email?"
+        },
+        {
+          "text": "vou receber email de cadastrado?"
+        }
+      ],
+      "description": "Perguntas relacionadas ao cadastro dos pupilos"
+    },
+    {
+      "intent": "preRequisito",
+      "examples": [
+        {
+          "text": "nunca estudei sobre, posso fazer?"
+        },
+        {
+          "text": "o que é necessário?"
+        },
+        {
+          "text": "Qual o pré-requisito?"
+        },
+        {
+          "text": "o que é preciso?"
+        },
+        {
+          "text": "preciso ser formado?"
+        },
+        {
+          "text": "não sei de nada, eu posso fazer?"
+        }
+      ],
+      "description": "Usuário deseja saber o pré-requisito"
+    },
+    {
+      "intent": "afirmacao",
+      "examples": [
+        {
+          "text": "uhun"
+        },
+        {
+          "text": "pode sim"
+        },
+        {
+          "text": "claro"
+        },
+        {
+          "text": "sim"
+        },
+        {
+          "text": "por favor"
+        },
+        {
+          "text": "simm"
+        },
+        {
+          "text": "pode"
+        }
+      ],
+      "description": "afirmação de perguntas"
+    },
+    {
+      "intent": "Trilha",
+      "examples": [
+        {
+          "text": "O que vou aprender?"
+        },
+        {
+          "text": "O que vai ser ensinado?"
+        },
+        {
+          "text": "Qual é a trilha?"
+        },
+        {
+          "text": "qual o conteúdo do curso?"
+        },
+        {
+          "text": "O que via ter no curso?"
+        },
+        {
+          "text": "O curso vai ensinar o que?"
+        },
+        {
+          "text": "O que vai ter na maratona?"
+        },
+        {
+          "text": "O que esta maratona vai ensinar?"
+        },
+        {
+          "text": "O que irei aprender nesta maratona?"
+        },
+        {
+          "text": "O irei aprender neste treinamento?"
+        },
+        {
+          "text": "O que as aulas irão ensinar?"
+        },
+        {
+          "text": "o que aprenderei nas aulas?"
+        },
+        {
+          "text": "aulas de que?"
+        },
+        {
+          "text": "Vou aprender python"
+        },
+        {
+          "text": "vai ensinar python"
+        },
+        {
+          "text": "vai ter python"
+        },
+        {
+          "text": "vai ensinar R"
+        },
+        {
+          "text": "vou aprender R"
+        },
+        {
+          "text": "Vai ter R"
+        },
+        {
+          "text": "Vai ter matemática"
+        },
+        {
+          "text": "tem matemática"
+        },
+        {
+          "text": "vai ter matemática estatística"
+        },
+        {
+          "text": "vai ter estatística"
+        },
+        {
+          "text": "estatística"
+        },
+        {
+          "text": "estatistica"
+        },
+        {
+          "text": "vai ter machine learning"
+        },
+        {
+          "text": "vou aprender marchine learning"
+        },
+        {
+          "text": "machine learning"
+        },
+        {
+          "text": "vai ter machine learnin"
+        },
+        {
+          "text": "ensinará machine leaning"
+        },
+        {
+          "text": "inclui machine learning"
+        },
+        {
+          "text": "big data"
+        },
+        {
+          "text": "vai ter bigdata"
+        },
+        {
+          "text": "bigdata"
+        },
+        {
+          "text": "vai ter big data"
+        },
+        {
+          "text": "ensinará bigdata"
+        },
+        {
+          "text": "inclui bigdata"
+        },
+        {
+          "text": "deeplearning"
+        },
+        {
+          "text": "análise de dados"
+        },
+        {
+          "text": "deep learning"
+        },
+        {
+          "text": "analise de dados"
+        },
+        {
+          "text": "sql"
+        },
+        {
+          "text": "nosql"
+        },
+        {
+          "text": "vai ter sql"
+        },
+        {
+          "text": "vai ter nosql"
+        },
+        {
+          "text": "github"
+        },
+        {
+          "text": "git hub"
+        },
+        {
+          "text": "o que vou aprender"
+        },
+        {
+          "text": "o que vai ser ensinado"
+        },
+        {
+          "text": "vai ensinar o que"
+        },
+        {
+          "text": "vou aprender o que"
+        },
+        {
+          "text": "e o que vai cair"
+        },
+        {
+          "text": "quais sao os cursos"
+        }
+      ],
+      "description": "A trilha da Maratona, o que será aprendido"
+    },
+    {
+      "intent": "cadastrar",
+      "examples": [
+        {
+          "text": "como  me cadastro"
+        },
+        {
+          "text": "quero fazer o curso, como faz"
+        },
+        {
+          "text": "como eu faço para me cadastrar"
+        },
+        {
+          "text": "como eu me cadastro"
+        },
+        {
+          "text": "como eu me inscrevo"
+        },
+        {
+          "text": "qual é o link da inscrição"
+        },
+        {
+          "text": "quero fazer a inscrição"
+        },
+        {
+          "text": "como fazer a inscrição"
+        },
+        {
+          "text": "onde cadastro"
+        },
+        {
+          "text": "onde preenche o cadastro"
+        },
+        {
+          "text": "me cadastro onde"
+        },
+        {
+          "text": "como posso fazer parte?"
+        },
+        {
+          "text": "quero fazer o curso"
+        },
+        {
+          "text": "quero fazer a maratona"
+        },
+        {
+          "text": "onde me cadastro"
+        },
+        {
+          "text": "como fazer inscrição"
+        },
+        {
+          "text": "onde faço o cadastro?"
+        },
+        {
+          "text": "como me cadastro?"
+        },
+        {
+          "text": "como faço para me cadastrar?"
+        },
+        {
+          "text": "onde eu preencho o cadastro"
+        },
+        {
+          "text": "como me inscrevo"
+        },
+        {
+          "text": "onde me inscrevo"
+        }
+      ],
+      "description": "Ação de casdastrar"
+    },
+    {
+      "intent": "idioma",
+      "examples": [
+        {
+          "text": "É todo em português?"
+        },
+        {
+          "text": "Qual será o idioma?"
+        },
+        {
+          "text": "Qual o idioma da maratona?"
+        },
+        {
+          "text": "Qual o idioma do curso?"
+        },
+        {
+          "text": "é gringo"
+        },
+        {
+          "text": "e lingua brasileira"
+        },
+        {
+          "text": "é portuga"
+        },
+        {
+          "text": "qual o idioma"
+        },
+        {
+          "text": "qual a lingua"
+        },
+        {
+          "text": "É em inglês"
+        },
+        {
+          "text": "é em português"
+        }
+      ],
+      "description": "Relacionando ao idioma da maratona"
+    },
+    {
+      "intent": "Despedida",
+      "examples": [
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "Obrigado por ajudar"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Ty"
+        },
+        {
+          "text": "Muito obrigado!"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "inté"
+        },
+        {
+          "text": "abraço"
+        },
+        {
+          "text": "abrass"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "vlw"
+        },
+        {
+          "text": "falou"
+        },
+        {
+          "text": "era só isso mesmo"
+        },
+        {
+          "text": "Obrigado pela informação"
+        },
+        {
+          "text": "Tchau-tchau!"
+        },
+        {
+          "text": "Bye-bye!"
+        },
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "Obrigado!"
+        },
+        {
+          "text": "Até logo!"
+        },
+        {
+          "text": "agradecido"
+        },
+        {
+          "text": "Agradeço a sua ajuda!"
+        },
+        {
+          "text": "até mais"
+        }
+      ],
+      "description": "Finalização da conversa"
+    },
+    {
+      "intent": "vagas",
+      "examples": [
+        {
+          "text": "possui indicação com vaga?"
+        },
+        {
+          "text": "Possui parceria para vaga?"
+        },
+        {
+          "text": "ajuda com vaga?"
+        },
+        {
+          "text": "consigo trabalho depois?"
+        },
+        {
+          "text": "vai me ajudar a ter emprego?"
+        },
+        {
+          "text": "tem indicação"
+        },
+        {
+          "text": "ajuda com estágio"
+        },
+        {
+          "text": "possui estágio"
+        },
+        {
+          "text": "parceria estagio"
+        },
+        {
+          "text": "tem oportunidade?"
+        },
+        {
+          "text": "parceria de estágio"
+        },
+        {
+          "text": "parceria empresa para conseguir estágio"
+        },
+        {
+          "text": "possui indicação com vaga"
+        },
+        {
+          "text": "possui indicação com estagio"
+        }
+      ],
+      "description": "questões de vagas com relação ao conteúdo"
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "e aí"
+        },
+        {
+          "text": "opa"
+        },
+        {
+          "text": "aloha"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "falae"
+        },
+        {
+          "text": "e ai"
+        },
+        {
+          "text": "Olá, então eu preciso falar com vocês"
+        },
+        {
+          "text": "eae"
+        },
+        {
+          "text": "eai"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hei"
+        },
+        {
+          "text": "eae4"
+        },
+        {
+          "text": "ei"
+        },
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "tem alguém ai?"
+        },
+        {
+          "text": "tudo bem?"
+        },
+        {
+          "text": "licença"
+        },
+        {
+          "text": "Oi?"
+        },
+        {
+          "text": "Olá!"
+        }
+      ],
+      "description": "Saudação geral"
+    },
+    {
+      "intent": "Duracao",
+      "examples": [
+        {
+          "text": "é um mês de curso?"
+        },
+        {
+          "text": "quantos meses"
+        },
+        {
+          "text": "Quando tempo leva?"
+        },
+        {
+          "text": "quantos dias?"
+        },
+        {
+          "text": "quantas horas?"
+        },
+        {
+          "text": "demora quanto tempo?"
+        },
+        {
+          "text": "Quantas semanas?"
+        },
+        {
+          "text": "Qual a duração?"
+        },
+        {
+          "text": "leva quanto tempo?"
+        },
+        {
+          "text": "Vai até quando?"
+        },
+        {
+          "text": "começa quando?"
+        },
+        {
+          "text": "demora muito?"
+        },
+        {
+          "text": "qual o prazo para finalizar o curso?"
+        },
+        {
+          "text": "quantos anos"
+        },
+        {
+          "text": "é um trimestre"
+        },
+        {
+          "text": "são dois meses"
+        }
+      ],
+      "description": "Duração da maratona"
+    },
+    {
+      "intent": "Convenio",
+      "examples": [
+        {
+          "text": "Convenio para desconto?"
+        },
+        {
+          "text": "Convênio empresa pra desconto?"
+        },
+        {
+          "text": "Tem convênio com alguma instuição"
+        },
+        {
+          "text": "convênio RH?"
+        }
+      ],
+      "description": "Se tem convênio e parcerias relacionado a valores"
+    },
+    {
+      "intent": "Sobre_Como_Funciona",
+      "examples": [
+        {
+          "text": "como funciona?"
+        },
+        {
+          "text": "como vai ser"
+        },
+        {
+          "text": "sobre a maratona"
+        },
+        {
+          "text": "pagina do curso"
+        },
+        {
+          "text": "queria saber sobre maratonas"
+        },
+        {
+          "text": "link da pagina"
+        },
+        {
+          "text": "fale sobre a plaforma"
+        },
+        {
+          "text": "sobre a plataforma"
+        },
+        {
+          "text": "qual é o link da maratona?"
+        },
+        {
+          "text": "Qual é o site?"
+        },
+        {
+          "text": "como é o portal"
+        },
+        {
+          "text": "é presencial?"
+        },
+        {
+          "text": "é online?"
+        },
+        {
+          "text": "Como é a plataforma"
+        },
+        {
+          "text": "pode me explicar o que é?"
+        },
+        {
+          "text": "Gostaria de saber mais"
+        },
+        {
+          "text": "Como funfa?"
+        },
+        {
+          "text": "do que se trata?"
+        },
+        {
+          "text": "Fale sobre a maratona"
+        },
+        {
+          "text": "O que é?"
+        }
+      ],
+      "description": "Perguntas de como funciona e o que é"
+    },
+    {
+      "intent": "compreensao",
+      "examples": [
+        {
+          "text": "Entendi"
+        },
+        {
+          "text": "Belê"
+        },
+        {
+          "text": "blz"
+        },
+        {
+          "text": "beleza"
+        },
+        {
+          "text": "otimo"
+        },
+        {
+          "text": "ótimo"
+        },
+        {
+          "text": "ah muito bom"
+        },
+        {
+          "text": "ah legal"
+        },
+        {
+          "text": "Hun entedi"
+        },
+        {
+          "text": "aaah"
+        },
+        {
+          "text": "hunn"
+        },
+        {
+          "text": "a ta"
+        },
+        {
+          "text": "compreendi"
+        }
+      ],
+      "description": "falas de compreensão após informações"
+    },
+    {
+      "intent": "certificado",
+      "examples": [
+        {
+          "text": "de quantas horas vai ser o certificado"
+        },
+        {
+          "text": "no final tem certificado"
+        },
+        {
+          "text": "certificado de conclusao"
+        },
+        {
+          "text": "a maratona tem certificado"
+        },
+        {
+          "text": "tem certificado"
+        },
+        {
+          "text": "ganho certificado"
+        },
+        {
+          "text": "ao concluir terei certificado"
+        },
+        {
+          "text": "qual a certificação?"
+        },
+        {
+          "text": "carga horária do certificado"
+        },
+        {
+          "text": "o curso é com certificado?"
+        },
+        {
+          "text": "Vai ter certificado?"
+        },
+        {
+          "text": "Esse curso tem certificado"
+        },
+        {
+          "text": "horas certificado"
+        }
+      ],
+      "description": "Questões relacionadas ao certificado"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "saudacaoPersonalizada",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Descolado",
+          "synonyms": [
+            "E aí",
+            "opa",
+            "falae",
+            "e ae",
+            "eai",
+            "eae",
+            "hey",
+            "hola"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa noite",
+          "synonyms": [
+            "noite",
+            "Buenas noches",
+            "good night"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bom dia",
+          "synonyms": [
+            "'dia",
+            "Buenos día",
+            "'morning",
+            "b dia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa tarde",
+          "synonyms": [
+            "tarde",
+            "buenas tarde"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sobre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Site",
+          "synonyms": [
+            "Qual o link",
+            "Qual é o site",
+            "Qual é o site da maratona",
+            "Qual o link da maratona",
+            "Qual o link do site",
+            "link da página",
+            "qual a página",
+            "qual a página da maratona",
+            "página do curso",
+            "pagina",
+            "pagina do curso",
+            "pagina maratona"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sobre a Maratona",
+          "synonyms": [
+            "O que é",
+            "Me explica o que é?",
+            "o que é esse rolê",
+            "o que é essa maratona?",
+            "fale sobre o curso",
+            "O que é esse curso?",
+            "qual é a dessa maratona?",
+            "qual é o desse curso",
+            "Fale sobre a maratona",
+            "sobre a maratona",
+            "saber sobre maratona",
+            "como é o curso",
+            "como é a maratona",
+            "explica sobre essa maratona",
+            "explica sobre esse curso",
+            "essa maratona",
+            "esse curso",
+            "como vai ser o curso",
+            "quero saber sobre o curso",
+            "me fale sobre o curso",
+            "quero saber sobre a maratona",
+            "me fale mais sobre a maratona",
+            "sobre o curso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "plataforma",
+          "synonyms": [
+            "Como funfa",
+            "Como funciona",
+            "Como é a plataforma",
+            "Como é realizado o curso",
+            "Como é realizado a plataforma",
+            "É online",
+            "É presencial",
+            "É semi-presencial",
+            "onde vai ser",
+            "Posso fazer de casa",
+            "posso fazer em qualquer lugar",
+            "Quero saber sobre a plataforma",
+            "Fale sobre a plataforma"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "despidadComAgradecimento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Obrigado",
+          "synonyms": [
+            "obrigado pela informação",
+            "obrigado pela orientação"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "trilha",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "python",
+          "synonyms": [
+            "cai python",
+            "estuda python",
+            "conteúdo de python",
+            "cai estatística",
+            "entra estatística",
+            "estuda estatística",
+            "vai ter python",
+            "vai ter estatística",
+            "vai matemática",
+            "cai matemática",
+            "matemática estatística",
+            "matematica estatistica",
+            "R",
+            "cai R",
+            "conteúdo R",
+            "vai ter R",
+            "estudar R",
+            "análise de dados R",
+            "dados R",
+            "machine learning",
+            "vai ter machine learning",
+            "tem machine learning",
+            "aprender machine learning",
+            "estudar machine learning",
+            "machine larning",
+            "IA",
+            "AI",
+            "IA machine leaning",
+            "deep learning",
+            "dep larning",
+            "deep larning",
+            "dep learning",
+            "vai ter deep learning",
+            "cai deep learning",
+            "vou aprender deep learning",
+            "SQL",
+            "NoSQL",
+            "vai ter sql",
+            "vai ter nosql",
+            "no curso vai sql",
+            "na maratona via ter python",
+            "no curso vai ter python",
+            "na maratona vai ter estatística",
+            "no curso vai ter estatística",
+            "na maratona vai ter R",
+            "no curso vai ter R",
+            "Na maratona vai ter matemática",
+            "no curso vai ter matemátiva",
+            "na maratona vai ter machine learning",
+            "no curso vai ter machine learning",
+            "na maratona vai ter sql",
+            "no curso vai ter nosql",
+            "na maratona vai ter deep learning",
+            "no curso vai ter deep learning",
+            "no curso vai ter AI",
+            "no curso vai ter IA",
+            "na maratona vai ter AI",
+            "na maratona vai ter IA",
+            "big data",
+            "bigdata",
+            "bigdta",
+            "vai ter bigdata",
+            "vai ter big data",
+            "na maratona vai ter bigdata",
+            "na maratona vai ter big data",
+            "no curso vai ter big data",
+            "no curso vai ter bigdata",
+            "ensina big data",
+            "tem bigdata",
+            "tem big data",
+            "inclui big data",
+            "github",
+            "git hub",
+            "na maratona via ter github",
+            "no curso vai ter github",
+            "inclui git hub",
+            "inclui python",
+            "inclui R",
+            "inclui deep learning",
+            "inclui machine learning",
+            "inclui matemática",
+            "inclui bigdata",
+            "inclui estatística"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "trilha",
+          "synonyms": [
+            "qual o conteúdo da maratona",
+            "o que vai cair na maratona",
+            "quais matérias terão na maratona",
+            "o que vai cair no curso",
+            "o que vai ter no curso",
+            "qual vai ser a trilha",
+            "o que vai ter na trilha",
+            "me fale sobre a trilha",
+            "qual o conteudo do curso",
+            "quais a materias do curso",
+            "qual a trilha",
+            "qual o conteúdo do curso",
+            "gostaria de saber sobre a trilha",
+            "quero saber sobre a trilha",
+            "sobre trilha",
+            "conte sobre a trilha",
+            "explica sobre a trilha",
+            "explica o conteúdo da trilha",
+            "conteúdo curso",
+            "conteudo curso",
+            "o que vou aprender",
+            "o que vai ser ensinado",
+            "aprenderei o que",
+            "ensinará o que",
+            "ensinara o que",
+            "aprenderei o q",
+            "cai o q",
+            "o que vai ter nesta maratona",
+            "vai ter o que nesta maratona",
+            "quais os conteúdos da maratona",
+            "quero saber da trilha",
+            "o que vai ter na maratona",
+            "o que cai na maratona",
+            "qual a trilha da maratona",
+            "o que tem no curso",
+            "o que tem na maratona"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "preRequisito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mas eu não conheço",
+          "synonyms": [
+            "não sei",
+            "nunca fiz",
+            "nunca comecei",
+            "nunca começei",
+            "eu sou iniciante",
+            "eu nunca programei",
+            "não sei fazer",
+            "sou leigo",
+            "sou novato",
+            "serve para iniciante",
+            "posso começar do zero",
+            "irei iniciar agora",
+            "não sei programar",
+            "nao sei programar",
+            "nao sei programacao",
+            "não sei programação",
+            "não sou de exatas",
+            "nao sou de ti",
+            "não sou da informática",
+            "não faço matemática, posso fazer",
+            "não faco matematica",
+            "não sou formado em ti",
+            "não sou formado em matemática",
+            "não sou formado em matematica",
+            "não tenho formação",
+            "mas eu nao sou da area da ti",
+            "Mas eu não sou da área da Ti",
+            "eu não sou da ti",
+            "Eu nao sou da ti",
+            "eu naõ sou da ti",
+            "mas eu não conheço programacao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "qual o pré-requisito",
+          "synonyms": [
+            "não tem pré-requisito",
+            "qual o pre requisito",
+            "tem pre requisito",
+            "tem pre-requisito",
+            "tem pré-requisto",
+            "o que é preciso saber",
+            "preciso saber de algo",
+            "preciso se de Ti",
+            "preciso ser da informatica",
+            "preciso saber matematica",
+            "tenho que ser de exatas",
+            "sou de umas, posso fazer",
+            "não de exatas, posso tentar",
+            "não sou de exatas, posso fazer",
+            "nao sou de ti, posso fazer o curso",
+            "não sou de ti, posso fazer a marataona",
+            "não sou de exatas, posso fazer a maratona",
+            "preciso saber o que?",
+            "o que é necessário saber",
+            "preciso saber algo",
+            "preciso saber algum conteúdo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "duracao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inicio",
+          "synonyms": [
+            "quando começa",
+            "inicia quando",
+            "quando starta",
+            "começa quando",
+            "quando inicia",
+            "quando a maratona começa",
+            "quando o curso",
+            "qual a data de inicio",
+            "qual a data que começa",
+            "quando comeca",
+            "quando começa a turma",
+            "a maratona começa quando",
+            "o curso começa quando",
+            "a maratona começa que dia",
+            "qual o dia que começa a maratona",
+            "qual o dia que começa",
+            "que dia começa",
+            "que dia inicia",
+            "qual o dia do inicio",
+            "qual o dia do começo",
+            "qual o dia começa",
+            "como comeco",
+            "quando comeco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "duração",
+          "synonyms": [
+            "duracao",
+            "quando tempo dura",
+            "quanto tempo leva",
+            "leva quanto tempo",
+            "dura quanto tempo",
+            "demora muito",
+            "qual a duração",
+            "qual a duração da maratona",
+            "qual a duração do curso",
+            "quanto tempo leva a maratona",
+            "quanto tempo a maratona",
+            "quanto tempo leva o curso",
+            "quantos dias dura",
+            "quantos dias duram",
+            "quantos dias levam",
+            "quanto tempo dura",
+            "quanto tempo",
+            "o curso é de quanto tempo",
+            "a maratona é de quanto tempo",
+            "quantas horas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "semanal",
+          "synonyms": [
+            "Quantas semanas",
+            "quantas horas por dia",
+            "quantas horas por semana",
+            "quantas horas por mês",
+            "quantas horas em um dia",
+            "por dia preciso de quantas horas.",
+            "quantas horas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "formaPagamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "boleto",
+          "synonyms": [
+            "crédito",
+            "débito",
+            "criptomoedas",
+            "cheque",
+            "parcelar",
+            "dividir",
+            "aceita cartão de crédito",
+            "aceita debito",
+            "aceita cartão de débito",
+            "credito",
+            "debito",
+            "aceita cheque",
+            "posso pagar com boleto",
+            "quero pagar com cartão de crédito",
+            "posso pagar com o cartão",
+            "posso pagar com o boleto",
+            "posso pagar no cartão",
+            "posso pagar no debito",
+            "posso pagar no credito",
+            "aceita pagamento no cartao",
+            "aceita pagamento no credito",
+            "aceita pagamento no debito",
+            "aceita cartão",
+            "aceita cartao",
+            "aceita débito",
+            "aceita credito",
+            "pagar com cartão",
+            "pagar com o cartão de crédito",
+            "pagar com o cartão de débito",
+            "posso pagar com credito",
+            "posso pagar com débito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "paypal",
+          "synonyms": [
+            "posso pagar com paypal",
+            "posso pagar com paypol",
+            "aceita paypal",
+            "pagar por transferência bancária",
+            "quero pagar com paypal",
+            "transferência bancária",
+            "pagar paypal",
+            "aceita transferência bancária"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "como pagar",
+          "synonyms": [
+            "como posso pagar",
+            "quais as formas de pagamento",
+            "formas de pagar",
+            "formas de pagamento",
+            "como quitar",
+            "como posso comprar",
+            "como compro o curso",
+            "como compro a maratona",
+            "como pago o curso",
+            "como pago a maratona",
+            "como quito o curso",
+            "quero pagar, como faz",
+            "quero comprar como faz",
+            "como faz para comprar",
+            "como faz para pagar",
+            "quanto custa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "trilha afirmação",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Sim, a trilha que compõem a maratona consiste em:  Python, Matemática Estatística, R, Análise de dados R, Machine Learning, Deep Learning, SQL, NoSQL, Git/Github BigData e concluindo com um projeto final."
+              },
+              {
+                "text": "Sim, este conteúdo esta incluso. A trilha que compõem a maratona consiste em:  Python, Matemática Estatística, R, Análise de dados R, Machine Learning, Deep Learning, SQL, NoSQL, Git/Github BigData e concluindo com um projeto final."
+              },
+              {
+                "text": "Sim, pode contar com este conteúdo na maratona. Confira o que esta incluso na trilha:  Python, Matemática Estatística, R, Análise de dados R, Machine Learning, Deep Learning, SQL, NoSQL, Git/Github BigData e concluindo com um projeto final."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1543774542261",
+      "metadata": {},
+      "conditions": "#Trilha && @trilha:python",
+      "dialog_node": "node_6_1543781035492",
+      "previous_sibling": "node_5_1543774911293"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre a trilha",
+      "output": {
+        "generic": [
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "A trilha que compõem a maratona consiste em:  Python, Matemática Estatística, R, Análise de dados R, Machine Learning, Deep Learning, SQL, NoSQL, Git/Github BigData e concluindo com um projeto final."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1543774542261",
+      "metadata": {},
+      "conditions": "#Trilha && @trilha:trilha",
+      "dialog_node": "node_5_1543774911293"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 5000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Oi, boa tarde! Como posso te ajudar?"
+              },
+              {
+                "text": "Ei, boa tarde! Como posso te ajudar?"
+              },
+              {
+                "text": "Ola, boa tarde! Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1543620533854",
+      "metadata": {},
+      "dialog_node": "node_6_1543627880696"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 5000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Olá, como posso te ajudar?"
+              },
+              {
+                "text": "Oi, como posso te ajudar?"
+              },
+              {
+                "text": "Oi, o que gostaria de saber?"
+              },
+              {
+                "text": "Olá, o que gostaria de saber?"
+              },
+              {
+                "text": "Ei, posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1543620862053",
+      "metadata": {},
+      "dialog_node": "node_9_1543627898671"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Depois de toda trilha percorrida, desafios e testes alcançados… bem, você merece o certificado<b> Data Science Brazil</b> com carga horária de 252h."
+              },
+              {
+                "text": "Bem, a carga horária é de 252 horas. Isso depois de toda a trilha percorrida, desafio e testes alcançados... bem merecidos, não?"
+              },
+              {
+                "text": "Depois de toda trilha percorrida, desafios e testes alcançados você receberá o certificado<b> Data Science Brazil</b> com carga horária de 252h."
+              },
+              {
+                "text": "Você receberá  o certificado<b> Data Science Brazil</b> com carga horária de 252h. Depois de toda trilha percorrida, desafios e testes alcançados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1543718077959",
+      "metadata": {},
+      "dialog_node": "node_12_1543782297788"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1543716726134",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_11_1543716740949"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Precisa nos contatar? Chama-nos agora mesmo!",
+            "Precisa de ajuda? Pode nos chamar!",
+            "Precisa falar conosco? Só nos chamar!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "Bem-vindo",
+      "metadata": {},
+      "dialog_node": "node_3_1543627837411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 5000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Oi, bom dia! Como posso te ajudar?"
+              },
+              {
+                "text": "Ei, bom dia! Como posso te ajudar?"
+              },
+              {
+                "text": "Olá, bom dia! Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1543620271302",
+      "metadata": {},
+      "dialog_node": "node_5_1543627873275"
+    },
+    {
+      "type": "standard",
+      "title": "saudacaoBoaNoite",
+      "output": {},
+      "parent": "node_2_1543620498310",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#saudacao && @saudacaoPersonalizada:(Boa noite)",
+      "dialog_node": "node_5_1543620592198",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1543620533854"
+    },
+    {
+      "type": "standard",
+      "title": "SaudacaoBoaTarde",
+      "output": {},
+      "parent": "node_2_1543620498310",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#saudacao && @saudacaoPersonalizada:(Boa tarde)",
+      "dialog_node": "node_4_1543620533854",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1543620271302"
+    },
+    {
+      "type": "standard",
+      "title": "restantes",
+      "output": {},
+      "parent": "node_2_1543620498310",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#saudacao",
+      "dialog_node": "node_7_1543620862053",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1543620645037"
+    },
+    {
+      "type": "standard",
+      "title": "saudacaoDescolada",
+      "output": {},
+      "parent": "node_2_1543620498310",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#saudacao && @saudacaoPersonalizada:Descolado",
+      "dialog_node": "node_6_1543620645037",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1543620592198"
+    },
+    {
+      "type": "standard",
+      "title": "saudacaoBomDia",
+      "output": {},
+      "parent": "node_2_1543620498310",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#saudacao && @saudacaoPersonalizada:(Bom dia)",
+      "dialog_node": "node_1_1543620271302",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Então, profissionais que concluem a maratona são selecionados para eventuais projetos e frentes <b>Data Science Brazil</b>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "E mais, possuímos parcerias com diversas empresas e muitas delas nos pedem algumas indicações para estágios, vagas jr. e demais..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "E serão realizados centenas de exercícios e com eles você já iniciará seu portfólio o qual ajudará a conquistar a vaga desejada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1543688900440",
+      "metadata": {},
+      "dialog_node": "node_11_1543782264828"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Em mais o que posso te ajudar?",
+            "Em mais o que posso te informar?",
+            "Com o que mais posso te ajudar?",
+            "humm, o que gostaria de saber mais?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_8_1543678050247",
+      "metadata": {},
+      "dialog_node": "node_10_1543782251845"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 5000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "E aí,  posso te ajudar?"
+              },
+              {
+                "text": "Opa, posso te ajudar?"
+              },
+              {
+                "text": "Falae,  como posso te ajudar?"
+              },
+              {
+                "text": "Chega mais,  ajudo-te em que?"
+              },
+              {
+                "text": "E aí nerd, posso te ajudar?"
+              },
+              {
+                "text": "Opa,  qual sua dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1543620645037",
+      "metadata": {},
+      "dialog_node": "node_8_1543627893910"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "O site é :https://datasciencebrazil.org/maratona-dezembro/ "
+              },
+              {
+                "text": "O site sobre a maratona é: https://datasciencebrazil.org/maratona-dezembro/    "
+              },
+              {
+                "text": "O link é: https://datasciencebrazil.org/maratona-dezembro/ "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": " Acesse agora mesmo para saber mais!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1543626130047",
+      "metadata": {},
+      "conditions": "#Sobre_Como_Funciona && @sobre:Site",
+      "dialog_node": "node_10_1543627909323"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Eu não entendi. Você pode tentar reformular a frase.",
+            "Você pode reformular sua afirmação? Eu não estou entendendo.",
+            "Eu não entendi o sentido."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Em outros casos",
+      "metadata": {},
+      "dialog_node": "node_11_1543627919670"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Para se cadastrar acesso o nosso site: https://datasciencebrazil.org/maratona-dezembro/ .  E saiba mais sobre esta oportunidade."
+              },
+              {
+                "text": "Quer se inscrever, acesse: https://datasciencebrazil.org/maratona-dezembro/ "
+              },
+              {
+                "text": "Acesse o site da Data Science Brazil para realizar o cadastro: https://datasciencebrazil.org/maratona-dezembro/"
+              },
+              {
+                "text": "Acesse: https://datasciencebrazil.org/maratona-dezembro/  Saiba mais e cadastre-se."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1543785270038",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1543785629110"
+    },
+    {
+      "type": "standard",
+      "title": "Plataforma",
+      "output": {},
+      "parent": "node_2_1543626475318",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Sobre_Como_Funciona && @sobre:plataforma",
+      "dialog_node": "node_14_1543630325169",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1543626130047"
+    },
+    {
+      "type": "standard",
+      "title": "Maratona",
+      "output": {
+        "generic": [
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Então, sobre a maratona, o inscrito irá percorrer trilhas de estudos que já foram percorridas e testadas para que consiga absorver o <b>melhor</b> em <b>menor</b> tempo com a curadoria <b>Data Science Brazil</b>. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "E a maratona será realizada em uma plataforma totalmente <b>exclusiva</b> contando com uma rede social interna e ainda mais, criará um portfólio ao término da maratona. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543626475318",
+      "metadata": {},
+      "conditions": "#Sobre_Como_Funciona && @sobre:(Sobre a Maratona)",
+      "dialog_node": "node_1_1543633014222",
+      "previous_sibling": "node_14_1543630325169"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre-link-site",
+      "output": {},
+      "parent": "node_2_1543626475318",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Sobre_Como_Funciona && @sobre:Site",
+      "dialog_node": "node_1_1543626130047",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "A maratona é totalmente em português."
+              },
+              {
+                "text": "O idioma da maratona é totalmente em português"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1543634535532",
+      "metadata": {},
+      "dialog_node": "node_7_1543782189240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 1500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Faça no seu tempo,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Mas indicamos que o faça de forma intensiva, em 3 meses pois os desafios e tarefas são enviados semanalmente..."
+              },
+              {
+                "text": "A maratona foi projetada para que sejam estudadas 3h ao dia, contabilizando 21h semanais, 84h mensais e 252h trimestrais..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Mas ok se você estiver vivendo um momento com poucas horas disponíveis: não há prazo para término de seu curso. "
+              },
+              {
+                "text": "Entretanto, não temos data ou prazo final de entrega: desenvolva em seu tempo e receba a certificação ao terminar todas etapas em seu próprio ritmo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1543787351468",
+      "metadata": {},
+      "conditions": "@duracao:duração",
+      "dialog_node": "node_7_1543787705343",
+      "previous_sibling": "node_6_1543787702788"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "A data de início da maratona é dia 10 de dezembro."
+              },
+              {
+                "text": "A maratona tem seu início em 10 de dezembro."
+              },
+              {
+                "text": "A maratona começa dia 10 de dezembro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1543787351468",
+      "metadata": {},
+      "conditions": "@duracao:inicio",
+      "dialog_node": "node_6_1543787702788"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 2058,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "A inscrição pode ser pago via Paypal ou transferência bancária."
+              },
+              {
+                "text": "Você pode pagar via Paypal ou transferência bancária."
+              },
+              {
+                "text": "As formas de pagamentos são por transferência bancária ou por paypal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "E se você não te conta no paypal, comece agora mesmo criando a sua conta clicando neste link: https://www.paypal.com/br/home"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543715291624",
+      "metadata": {},
+      "dialog_node": "node_7_1543716568692"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 1500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Sim, aceitamos sim!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "As formas de pagamento são via paypal ou por transferência bancária"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1543716103528",
+      "metadata": {},
+      "dialog_node": "node_6_1543716561373"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Não temos convênios para desconto, acredito que nosso valor simbólico já esta bastante acessível"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Mas possuímos parcerias com diversas empresas e muitas delas nos pedem algumas indicações para estágios, vagas jr. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "E maratonistas são sempre lembrados neste momento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1543675946507",
+      "metadata": {},
+      "dialog_node": "node_9_1543782237876"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Não tem problema, "
+              },
+              {
+                "text": "Não se preocupe com isso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Solicitamos apenas máquina com acesso a internet e que o aluno saiba ler. Iniciamos do ZERO ABSOLUTO, ensinando programação, mas percorremos a trilha de forma que inclusive programadores experientes se beneficiarão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " Indicamos para curiosos, leigos, iniciantes e/ou intermediários."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1543796010875",
+      "metadata": {},
+      "conditions": "@preRequisito:(Mas eu não conheço)",
+      "dialog_node": "node_13_1543797092056",
+      "previous_sibling": "node_12_1543797038574"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Solicitamos apenas máquina com acesso a internet e que o aluno saiba ler."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": " Iniciamos do ZERO ABSOLUTO, ensinando programação, mas percorremos a trilha de forma que inclusive programadores experientes se beneficiarão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " Indicamos para curiosos, leigos, iniciantes e/ou intermediários."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1543796010875",
+      "metadata": {},
+      "conditions": "@preRequisito:(qual o pré-requisito)",
+      "dialog_node": "node_12_1543797038574"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 5000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "OI, boa noite, Como posso te ajudar?"
+              },
+              {
+                "text": "Ei, boa noite! Como posso te ajudar?"
+              },
+              {
+                "text": "Olá, boa noite! Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1543620592198",
+      "metadata": {},
+      "dialog_node": "node_7_1543627887263"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "O valor simbólico de R$ 29,90 pode ser pago via Paypal ou transferência bancária"
+              },
+              {
+                "text": "O valor é simbólico de apenas R$ 29,90."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1543674101187",
+      "metadata": {},
+      "dialog_node": "node_8_1543782220489"
+    },
+    {
+      "type": "standard",
+      "title": "Data de início",
+      "output": {},
+      "parent": "node_4_1543786679711",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Duracao && @duracao:inicio && @duracao:duração || @duracao:inicio || @duracao:duração",
+      "dialog_node": "node_5_1543787351468",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_10_1543792339137"
+    },
+    {
+      "type": "standard",
+      "title": "duraçao semanal",
+      "output": {
+        "generic": [
+          {
+            "time": 1500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "A maratona foi projetada para que sejam estudadas 3h ao dia, contabilizando 21h semanais, 84h mensais e 252h trimestrais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Entretanto, não temos data ou prazo final de entrega: desenvolva em seu tempo e receba a certificação ao terminar todas etapas em seu próprio ritmo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1543786679711",
+      "metadata": {},
+      "conditions": "#Duracao && @duracao:semanal",
+      "dialog_node": "node_10_1543792339137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "A Plataforma da maratona é exclusiva do Data Science Brazil,  online e é 100% em português."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "A plataforma conta com uma rede social interna. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "E mais, o aluno passará por provas e desafios que comprovarão seu ensino, além de criar portfólio ao término da maratona."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1543630325169",
+      "metadata": {},
+      "conditions": "#Sobre_Como_Funciona && @sobre:plataforma",
+      "dialog_node": "node_17_1543631791842"
+    },
+    {
+      "type": "standard",
+      "title": "Formas aceitas",
+      "output": {},
+      "parent": "node_1_1543715159843",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#pagamento && @formaPagamento:paypal",
+      "dialog_node": "node_3_1543716103528",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1543715291624"
+    },
+    {
+      "type": "standard",
+      "title": "Formas não aceitas",
+      "output": {
+        "generic": [
+          {
+            "time": 1500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Não, não aceitamos esta forma de pagamento."
+              },
+              {
+                "text": "Não, esta forma de pagamento não é aceita."
+              },
+              {
+                "text": "Esta forma de pagamento não esta disponível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "As formas aceitas de pagamento são via Paypal ou por transferência bancária."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1543715159843",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#pagamento && @formaPagamento:boleto",
+      "dialog_node": "node_10_1543716726134",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1543716103528"
+    },
+    {
+      "type": "standard",
+      "title": "Como Pagar",
+      "output": {},
+      "parent": "node_1_1543715159843",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#pagamento && @formaPagamento:(como pagar)",
+      "dialog_node": "node_2_1543715291624",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "folder",
+      "title": "Duração-início",
+      "metadata": {},
+      "conditions": "#Duracao && @duracao",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1543786679711",
+      "previous_sibling": "node_3_1543774542261"
+    },
+    {
+      "type": "standard",
+      "title": "valor",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#valor",
+      "digress_in": "returns",
+      "dialog_node": "node_4_1543674101187",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1543672921893"
+    },
+    {
+      "type": "standard",
+      "title": "afirmação",
+      "output": {
+        "generic": [
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Diga-me em que posso ajudar"
+              },
+              {
+                "text": "O que precisa saber?"
+              },
+              {
+                "text": "te ajudo com qual informação?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#afirmacao",
+      "digress_in": "returns",
+      "dialog_node": "node_8_1543790456927",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1543718077959"
+    },
+    {
+      "type": "folder",
+      "title": "Saudacoes",
+      "metadata": {},
+      "conditions": "#saudacao",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1543620498310",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "folder",
+      "title": "Sobre",
+      "metadata": {},
+      "conditions": "#Sobre_Como_Funciona && @sobre",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1543626475318",
+      "previous_sibling": "node_2_1543620498310"
+    },
+    {
+      "type": "standard",
+      "title": "Certificado e horas",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#certificado",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1543718077959",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1543688900440"
+    },
+    {
+      "type": "standard",
+      "title": "Oportunidade-vagas",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#vagas",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1543688900440",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1543678050247"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastrado - já preenchi o formulário",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Se você se cadastrou em nosso forms já está na lista de espera e no dia 1 de dezembro receberá email para cadastro na plataforma e posterior pagamento."
+              },
+              {
+                "text": "Se você se cadastrou em nosso forms já está na lista de espera e receberá email para cadastro na plataforma e posterior pagamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Cadastrado",
+      "dialog_node": "node_9_1543791825407",
+      "previous_sibling": "node_1_1543785270038"
+    },
+    {
+      "type": "folder",
+      "title": "Formas de pagamento",
+      "metadata": {},
+      "conditions": "#pagamento && @formaPagamento",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1543715159843",
+      "previous_sibling": "node_2_1543626475318"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida com agradecimentos",
+      "output": {
+        "generic": [
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Disponha. A equipe <b>Data Science Brazil</b> agradece o contato. Até logo!"
+              },
+              {
+                "text": "Não há de que. A equipe <b>Data Science Brazil</b> agradece o contato. Até logo!"
+              },
+              {
+                "text": "Disponha.  A equipe <b>Data Science Brazil</b> agradece o contato. "
+              },
+              {
+                "text": "Qualquer coisa estamos a disposição. Até mais. A equipe <b>Data Science Brazil</b> agradece o contato"
+              },
+              {
+                "text": "Não há de que.  A equipe <b>Data Science Brazil</b> agradece o contato"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Despedida && @despidadComAgradecimento:Obrigado",
+      "digress_in": "returns",
+      "dialog_node": "node_13_1543784037669",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1543634535532"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Em outros casos",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1543790456927"
+    },
+    {
+      "type": "standard",
+      "title": "Fala de continuidade",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#compreensao",
+      "digress_in": "returns",
+      "dialog_node": "node_8_1543678050247",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1543675946507"
+    },
+    {
+      "type": "standard",
+      "title": "Pré requisito",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#preRequisito && @preRequisito:(qual o pré-requisito) || #preRequisito && @preRequisito:(Mas eu não conheço)",
+      "digress_in": "returns",
+      "dialog_node": "node_11_1543796010875",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1543791825407"
+    },
+    {
+      "type": "standard",
+      "title": "Idioma",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#idioma",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1543634535532",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_11_1543796010875"
+    },
+    {
+      "type": "standard",
+      "title": "Convênio-valores",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Convenio",
+      "digress_in": "returns",
+      "dialog_node": "node_7_1543675946507",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1543674101187"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastrar",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Para se cadastrar acesso o nosso site: https://datasciencebrazil.org/maratona-dezembro/ .  E saiba mais sobre esta oportunidade."
+              },
+              {
+                "text": "Quer se inscrever, acesse: https://datasciencebrazil.org/maratona-dezembro/ "
+              },
+              {
+                "text": "Acesse o site da Data Science Brazil para realizar o cadastro: https://datasciencebrazil.org/maratona-dezembro/"
+              },
+              {
+                "text": "Acesse: https://datasciencebrazil.org/maratona-dezembro/  Saiba mais e cadastre-se."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#cadastrar",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1543785270038",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1543786679711"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Tchau, até logo!"
+              },
+              {
+                "text": "Qualquer coisa estamos a disposição!"
+              },
+              {
+                "text": "Até logo!"
+              },
+              {
+                "text": "Até a próxima!"
+              },
+              {
+                "text": "Agradecemos o contato!"
+              },
+              {
+                "text": "Qualquer coisa retorne mais tarde!"
+              },
+              {
+                "text": "Qualquer dúvida a mais só nos chamar. Até logo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Despedida",
+      "dialog_node": "node_3_1543672921893",
+      "previous_sibling": "node_13_1543784037669"
+    },
+    {
+      "type": "folder",
+      "title": "Trilha",
+      "metadata": {},
+      "conditions": "#Trilha && @trilha",
+      "digress_in": "returns",
+      "dialog_node": "node_3_1543774542261",
+      "previous_sibling": "node_1_1543715159843"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "cd079434-afd8-4172-a752-d0ed17ded8fb",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
