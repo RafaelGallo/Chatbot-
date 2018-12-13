@@ -516,7 +516,7 @@
     },
     {
       "intent": "Despedida",
-      "examples": [
+      "examples":;; [
         {
           "text": "tchau"
         },
@@ -2136,7 +2136,7 @@
             "response_type": "text",
             "selection_policy": "sequential"
           },
-          {
+          {;;
             "time": 1000,
             "typing": true,
             "response_type": "pause"
