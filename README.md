@@ -1,5 +1,5 @@
 # Chatbot
-Chatbot Cris
+Chatbot feito na platraforma IBM watson 
 
 # Chatbot Cris
 Chatbot para o curso data science, bot tem nome de Cris foi feito na plataforma ibm Watson.
